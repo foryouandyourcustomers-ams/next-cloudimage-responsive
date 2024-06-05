@@ -1,3 +1,5 @@
+> Note: this is a fork
+
 [![Release](https://img.shields.io/github/v/release/scaleflex/next-cloudimage-responsive)](https://github.com/scaleflex/next-cloudimage-responsive/releases)
 [![Free plan](https://img.shields.io/badge/price-includes%20free%20plan-green.svg)](https://www.cloudimage.io/en/home#b38181a6-b9c8-4015-9742-7b1a1ad382d5)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](#contributing)
