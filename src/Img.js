@@ -131,7 +131,8 @@ function Img(props) {
       style={{ ...WRAPPER_STYLES, ...style }}
       className={`${wrapperClassName}${className ? ` ${className}` : ''}`}
     >
-      <Image
+      {!loaded && <div className={classes.skeleton} />}
+      {/* <Image
         src={src}
         loader={(context) => cloudimageLoader(context, true)}
         layout="fill"
@@ -140,7 +141,7 @@ function Img(props) {
         objectPosition={objectPosition}
         alt={`low-preview-${_alt}`}
         {...computeImageSize(layout, width, height)}
-      />
+      /> */}
 
       {ssr ? (
         <Image
